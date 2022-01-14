@@ -1,0 +1,86 @@
+:root{
+    /* PRIMARY */
+    --cor-1:hsl(215,51%,70%);
+    --cor-2:hsl(178,100%,50%);
+    /* NEUTRAL */
+    --cor-3: hsl(217, 54%, 11%);
+    --cor-4:hsl(216, 50%, 16%);
+    --cor-5:hsl(215, 32%, 27%);
+    --cor-6: hsl(0, 0%, 100%);
+}
+
+body{
+  margin:0;
+   padding: 0;
+   background-color:var(--cor-3);
+   font-family: 'Outfit', sans-serif;
+}
+
+
+.container{
+    background-color: var(--cor-4);
+    max-width: 400px;
+    margin:30px auto 30px auto;
+    border-radius: 20px;
+    padding:30px;
+}
+
+.imagem{
+    border-radius:20px;
+    height: 400px;
+}
+
+.container h2{
+    color:var(--cor-6);
+    font-size: 2.2rem;
+}
+
+.container p{
+    color:var(--cor-1);
+    /* width:300px; */
+    font-size: 1.5rem;
+}
+
+.flex{
+    display:flex;
+    gap:200px;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.flex img{
+    vertical-align:top;
+    margin-right:2px;
+}
+
+.etherium{
+    color:var(--cor-2);
+}
+
+.clock{
+    color:var(--cor-1)
+}
+
+.avatar{
+    display:flex;
+    justify-content:flex-start;
+    gap:15px;
+    border-top: solid 1px var(--cor-1);
+    margin-top: 30px;
+}
+
+/* .avatar p{
+    font-size:20px;
+} */
+.avatar img{
+    width:40px;
+    height:40px;
+    border:solid 1px white;
+    border-radius:100%;
+    margin-top: 20px;
+}
+
+
+.avatar span{
+    color: var(--cor-6);
+}
